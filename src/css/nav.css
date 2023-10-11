@@ -1,0 +1,29 @@
+.navDiv1{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.navDiv11{
+    width: 10%;
+    height: 10vh;
+    background-color: aquamarine;
+    display: inline-flex;
+    align-items: center;
+}
+.navDiv12{
+    width: 70%;
+    height: 10vh;
+    background-color: rgb(175, 178, 13);
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+}
+.navDiv12>ul{
+    display: inline-flex;
+    list-style: none;
+}
+.navDiv12>ul>li{
+    margin-right: 30px;
+}
